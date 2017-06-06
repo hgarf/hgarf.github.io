@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Forum');
-
+* { margin:0; padding:0; box-sizing:border-box; }
 
 
 h1 {
@@ -31,7 +31,9 @@ p {
 	margin: 2em;
 }
 
-
+ul {
+	padding-left:1.25em;
+}
 li {
 	font-family: 'Comfortaa', cursive;
 	font-size: 16px;
@@ -46,9 +48,27 @@ li {
 
 #submit_button {
 	text-align: left;
-  	font-family: 'Forum', cursive;
+	font-family: 'Forum', cursive;
+	display: inline-block;
+	width: auto;
+	background: purple;
+	border: none;
+	padding: 1em 2em;
+	color: #fff;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: .5em;
+    /* outline: none; */
+    /* border: none; */
+    /* box-shadow: inset 1px 1px 3px rgba(0,0,0,.15); */
 }
 
+form {
+    width: 20em;
+}
 /*
 body
 h1
