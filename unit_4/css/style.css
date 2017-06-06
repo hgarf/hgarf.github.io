@@ -7,6 +7,17 @@ h1 {
   	font-family: 'Forum', cursive;
 }
 
+nav {
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+
+
+a {
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+
 
 h2 {
 	text-align: left;
@@ -25,6 +36,17 @@ li {
 	font-family: 'Comfortaa', cursive;
 	font-size: 16px;
 	line-height: 1.5em;
+}
+
+#contact_form {
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+
+
+#submit_button {
+	text-align: left;
+  	font-family: 'Forum', cursive;
 }
 
 /*
