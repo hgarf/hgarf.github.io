@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Forum');
+
+
+
+h1 {
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+
+
+h2 {
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+
+p {
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+
+li {
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+/*
+body
+h1
+p
+ul
+li
+img
+#slogan
+background
+background-color
+color
+font-size
+font-style
+font-weight
+text-align
+text-decoration
+text-transform*/
