@@ -1,21 +1,22 @@
 
-<style>
-@import url(https://fonts.googleapis.com/css?family=Comfortaa);
-</style>
+/*@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Forum');
 
-h1 {
-	text-align: left;
-  	font-family: 'Comfortaa', cursive;
-}
 
 h2 {
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+
+p {
 	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
 	line-height: 1.5em;
 	margin: 2em;
 }
 
-
+/*
 body
 h1
 p
@@ -31,4 +32,4 @@ font-style
 font-weight
 text-align
 text-decoration
-text-transform
+text-transform*/
