@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Forum');
+<<<<<<< HEAD
 * { margin:1em; padding:1; box-sizing:border-box; }
+=======
+* { margin:0; padding:0; box-sizing:border-box; }
+>>>>>>> origin/master
 
 
 h1 {
@@ -36,7 +40,11 @@ p {
 }
 
 ul {
+<<<<<<< HEAD
 	padding-left:2em;
+=======
+	padding-left:1.25em;
+>>>>>>> origin/master
 }
 li {
 	font-family: 'Comfortaa', cursive;
@@ -55,7 +63,11 @@ li {
 	font-family: 'Forum', cursive;
 	display: inline-block;
 	width: auto;
+<<<<<<< HEAD
 	background: green;
+=======
+	background: purple;
+>>>>>>> origin/master
 	border: none;
 	padding: 1em 2em;
 	color: #fff;
@@ -73,6 +85,7 @@ input, textarea {
 form {
     width: 20em;
 }
+
 /*
 body
 h1
