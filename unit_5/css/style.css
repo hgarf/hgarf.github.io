@@ -4,18 +4,19 @@
 
 header {
     background-color: #FFED74;
-        border: 1px black solid;
+    border: 1px black solid;
     padding: 20px;
 }
 
 #intro {
-	background: #eeeeee url(images/eating_dinner_at_FRM_cheers.jpg);
+	background-image: url("images/eating_dinner_at_FRM_cheers.jpg");
 }
 
 h1 {
 	text-align: left;
   	font-family: 'Forum', cursive;
   	margin: 1.5em;
+
 }
 
 nav {
@@ -25,11 +26,16 @@ nav {
 	text-align: left;
   	font-family: 'Forum', cursive;
   	margin: 1em;
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+
 }
 
 
 a {
-	text-align: left;
+	display: block;
   	font-family: 'Forum', cursive;
   	margin: 2em;
 }
@@ -49,13 +55,23 @@ p {
 }
 
 ul {
-	padding-left:2em;
-	padding-left:1.25em;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
 }
 li {
+	/*float: left;*/
+	/*display: inline;*/
 	font-family: 'Comfortaa', cursive;
 	font-size: 16px;
 	line-height: 1em;
+}
+
+li a {
+	float: left;
+	display: block;
+	text-align: center;
 }
 
 #reviews {
