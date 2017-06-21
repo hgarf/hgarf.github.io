@@ -40,6 +40,10 @@ a {
   	margin: 2em;
 }
 
+a:hover {
+	background-color: #aaaaaa
+}
+
 
 h2 {
 	text-align: left;
