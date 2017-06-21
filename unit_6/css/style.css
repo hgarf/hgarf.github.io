@@ -8,8 +8,14 @@ body {
 	line-height: 1.5
 }
 
+img.resize{
+    width:16.66%; /* you can use % */
+    height: auto;
+}
+
 header img {
 	float: left;
+	padding-left: 45.5em;
 }
 
 #hours {
