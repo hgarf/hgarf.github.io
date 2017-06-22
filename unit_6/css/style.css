@@ -15,7 +15,7 @@ img.resize{
 
 header img {
 	float: left;
-	padding-left: 45.5em;
+	/*padding-left: 50%;*/
 }
 
 #hours {
@@ -124,7 +124,7 @@ li {
 
 #reviews {
 	padding: 20px;
-    width: 1200px;
+    width: 1400px;
     margin: auto;
 }
 
