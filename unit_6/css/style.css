@@ -5,7 +5,7 @@ body {
 	color:#333;
 	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
-	line-height: 1.5
+	line-height: 1.5em
 }
 
 img.resize{
@@ -57,7 +57,7 @@ nav {
 	font-size: 1.8em;
 	background-color: #000;
 	clear:both;
- }
+}
 
 nav a {
 	text-decoration: none;
@@ -77,13 +77,18 @@ nav a:hover {
 
 
 h2 {
-	text-align: left;
+	text-align: center;
   	font-family: 'Forum', cursive;
   	margin: 0 0 .5em;
+  	font-size: 50px;
+  	color: #333;
 }
 
 p {
-	margin: .2em 0;
+	margin: 1em;
+	font-size: 25px;
+	padding: 2em;
+	line-height: 2em;
 }
 
 ul {
@@ -94,17 +99,16 @@ ul {
 }
 
 li {
-	float: left;
-	display: inline;
 	font-family: 'Comfortaa', cursive;
-	font-size: 16px;
-	line-height: 1em;
-}
-
-li a {
-	float: left;
-	display: block;
-	text-align: center;
+	float:left;
+  	width:20%;
+  	height: 3em;
+  	text-align: center;
+  	line-height: 1.5em;
+  	color: #000;
+  	background: #fff;
+  	padding-left: 20px;
+  	padding-right: 20px;
 }
 
 #slogan {
@@ -114,57 +118,56 @@ li a {
 	font-size: 44px;
 	font-weight: bolder;
 	margin-top: 330px;
+	margin-bottom: 20px;
 	clear:both;
 }
 
 #reviews {
-	background-color: #F0FFF0;
-	border: 1px black solid;
-    padding: 20px;
+	padding: 20px;
     width: 1200px;
     margin: auto;
 }
 
+#menu {
+	background-image: url("../images/thegrange_planted_crops_farming.jpg");
+	background-size:cover;
+	height: 400px;
+	text-align: center;
+}
+
+#menu .button {
+	margin-top: 125px;
+}
+
 div {
-    background-color: #F0FFF0;
-    border: 1px black solid;
     padding: 20px;
 }
 
 div a {
 	text-decoration: none;
   	font-family: 'Forum', cursive;
-  	/*margin: 3em;*/
-  	background-color: none
-  	color: black;
+  	background-color: none;
+  	color: #333;
   	display: block;
+  	font-size: 35px;
+  	padding:15px;
+}
+
+div a:hover {
+	background-color: lightgray;
 }
 
 section {
-    background-color: white;
-    /*border: 1px black solid;*/
     padding: 20px;
     clear: both;
     overflow: auto;
 }
 
-/*section a {
-	text-decoration: none;
-	text-align:center;
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	font-family: 'Forum', cursive;
-  	color: black;
-  	display: block;
-  	font-size: 2.4em;
+.reviews_text {
+	font-size: 13px;
+	text-align: left;
+	margin: 1px;
 }
-*/
-
-section a:hover {
-	background-color: #006400
-}
-
 
 .column {
 	float:left;
@@ -175,21 +178,18 @@ section a:hover {
 }
 
 #column1 {
-	background-color: #F0FFF0;
 	border: 1px black solid;
     padding: 20px;
     width:33.33%;
 }
 
 #column2 {
-	background-color: #F0FFF0;
 	border: 1px black solid;
     padding: 20px;
     width:33.33%;
 }
 
 #column3 {
-	background-color: #F0FFF0;
 	border: 1px black solid;
     padding: 20px;
     width: 33.33%;
@@ -206,9 +206,8 @@ section a:hover {
 
 
 footer {
-    background-color: #006400;
-    border: 1px black solid;
-    padding: 3em;
+    background-color: #000;
+    padding: 2em;
     clear: both;
 }
 
