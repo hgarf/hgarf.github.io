@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Forum');
+* { margin:1em; padding:1.5; box-sizing:border-box; }
+
+body {
+	color:#333;
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	line-height: 1.5em
+}
+
+img.resize{
+    width:16.66%; /* you can use % */
+    height: auto;
+}
+
+header img {
+	float: left;
+	/*padding-left: 50%;*/
+}
+
+#hours {
+  	font-family: 'Forum', cursive;
+  	float: right;
+  	color: #006400;
+  	font-size: .25em 0 0;
+}
+
+#intro {
+	background-image: url("../images/eating_dinner_at_FRM_cheers.jpg");
+	background-size:cover;
+	height: 750px;
+	text-align: center;
+}
+
+.button {
+	text-align: center;
+	line-height: 1.8em;
+	display: inline-block;
+	color:white;
+	font-size: 25px;
+	background-color:#000;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color:gray;
+}
+
+h1 {
+  	font-family: 'Forum', cursive;
+  	color: #000;
+}
+
+nav {
+	font-family: 'Forum', cursive;
+	font-size: 1.8em;
+	background-color: #000;
+	clear:both;
+}
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+  	font-family: 'Forum', cursive;
+  	background-color: black;
+  	color: white;
+  	display: block;
+  	float: left;
+  	padding:15px;
+  	width: 20%;
+}
+
+nav a:hover {
+	background-color: #006400;
+}
+
+
+h2 {
+	text-align: center;
+  	font-family: 'Forum', cursive;
+  	margin: 0 0 .5em;
+  	font-size: 50px;
+  	color: #333;
+}
+
+p {
+	margin: 1em;
+	font-size: 25px;
+	padding: 2em;
+	line-height: 2em;
+}
+
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+li {
+	font-family: 'Comfortaa', cursive;
+	float:left;
+  	width:20%;
+  	height: 3em;
+  	text-align: center;
+  	line-height: 1.5em;
+  	color: #000;
+  	background: #fff;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+
+#slogan {
+	color: black;
+	text-align: center;
+	font-family: 'Forum', cursive;
+	font-size: 44px;
+	font-weight: bolder;
+	margin-top: 330px;
+	margin-bottom: 20px;
+	clear:both;
+}
+
+#reviews {
+	padding: 20px;
+    width: 1400px;
+    margin: auto;
+}
+
+#menu {
+	background-image: url("../images/thegrange_planted_crops_farming.jpg");
+	background-size:cover;
+	height: 400px;
+	text-align: center;
+}
+
+#menu .button {
+	margin-top: 125px;
+}
+
+div {
+    padding: 20px;
+}
+
+div a {
+	text-decoration: none;
+  	font-family: 'Forum', cursive;
+  	background-color: none;
+  	color: #333;
+  	display: block;
+  	font-size: 35px;
+  	padding:15px;
+}
+
+div a:hover {
+	background-color: lightgray;
+}
+
+section {
+    padding: 20px;
+    clear: both;
+    overflow: auto;
+}
+
+.reviews_text {
+	font-size: 13px;
+	text-align: left;
+	margin: 1px;
+}
+
+.column {
+	float:left;
+  	width:33.33%;
+  	height: 15em;
+  	text-align: center;
+  	padding: 2em;
+}
+
+#column1 {
+	border: 1px black solid;
+    padding: 20px;
+    width:33.33%;
+}
+
+#column2 {
+	border: 1px black solid;
+    padding: 20px;
+    width:33.33%;
+}
+
+#column3 {
+	border: 1px black solid;
+    padding: 20px;
+    width: 33.33%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+footer {
+    background-color: #000;
+    padding: 2em;
+    clear: both;
+}
+
+footer a {
+	text-decoration: none;
+  	font-family: 'Forum', cursive;
+  	/*margin: 2em;*/
+  	color: white;
+  	display: block;
+  	float: left;
+  	padding: 10px;
+}
+/*
+body
+h1
+p
+ul
+li
+img
+#slogan
+background
+background-color
+color
+font-size
+font-style
+font-weight
+text-align
+text-decoration
+text-transform*/
+
+
+/*header {
+    padding: 20px;
+    background-color: #000
+    overflow: auto;
+    border: 1px solid #000;
+}*/
+
+
+/*#contact {
+	background-color: #F4F4F4;
+	border: 1px black solid;
+    padding: 20px;
+	text-align: left;
+  	font-family: 'Forum', cursive;
+}
+*/
+
+/*#submit_button {
+	text-align: left;
+	font-family: 'Forum', cursive;
+	display: inline-block;
+	width: auto;
+	background: green;
+	border: none;
+	padding: 1em 2em;
+	color: #fff;
+}*/
+/*input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: .5em;
+    /* outline: none; 
+    /* border: none; 
+    /* box-shadow: inset 1px 1px 3px rgba(0,0,0,.15); */
+/*}*/
+
+/*form {
+    width: 20em;
+}*/
